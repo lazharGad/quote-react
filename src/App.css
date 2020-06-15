@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
+
+.container
+{
+  overflow: hidden;
+  width : 100vw;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1516918656725-e9b3ae9ee7a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advice-container
+{
+  width : 50%;
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  margin : 20% 25%; 
+  
+}
+.advice-container h1
+{
+  font-size: 25px;
+  font-family:  'Cormorant Garamond';
+  margin-bottom: 25px;
+}
+.advice-container button
+{
+  background-color: transparent;
+  border : .5px solid #888;
+  padding: .8em;
+}
